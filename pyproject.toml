@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "helloworld"
+version = "0.1.1"
+description = "hello world usign poetry and CD/CI using GitHub actions"
+authors = ["jinkoo kim <jinkoo2@hotmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.14"
+pylinac = "^3.27.0"
+tkcalendar = "^1.6.1"
+requests = "^2.32.3"
+pydicom = ">=2.0,<3"
+pillow = "^10.4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pyinstaller = "^6.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

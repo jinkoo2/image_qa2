@@ -1,0 +1,90 @@
+{
+    "sites": [
+        {
+            "id": "SBUH",
+            "devices": [
+                {
+                    "id": "Truebeam"
+                },
+                {
+                    "id": "SIL"
+                },
+                {
+                    "id": "Edge"
+                }
+            ]
+        },
+        {
+            "id": "PFCC",
+            "devices": [
+                {
+                    "id": "TruebeamSH"
+                }
+            ]
+        }
+    ],
+    "phantoms": [
+        {
+            "id": "CatPhan",
+            "name": "CatPhan",
+            "dim" : 3
+        },
+        {
+            "id": "QCkV",
+            "name": "Standard Imaging QC-kV",
+            "dim" : 2
+        },
+        {
+            "id": "QC3",
+            "name": "Standard Imaging QC-3 (MV)",
+            "dim" : 2
+        },
+        {
+            "id": "FC2",
+            "name": "Standard Imaging FC-2 (MV)",
+            "dim" : 2
+        },
+        {
+            "id": "LeedsTOR",
+            "name": "Leeds TOR (kV)",
+            "dim" : 2
+        }
+        ,
+        {
+            "id": "LasVegas",
+            "name": "Las Vegas (MV)",
+            "dim" : 2
+        }
+    ],
+    "imaging_modality": [
+        {
+            "id": "kVCBCT"
+        },
+        {
+            "id": "mVCBCT"
+        },
+        {
+            "id": "kV"
+        },
+        {
+            "id": "MV"
+        },
+        {
+            "id": "FilmColor"
+        }
+        ,
+        {
+            "id": "FilmMono"
+        }
+    ],
+    "users": [
+        "Jinkoo|jinkoo.kim@stonybrookmedicine.edu",
+        "Ting|An.Hsia@stonybrookmedicine.edu",
+        "Xin|Xin.Qian@stonybrookmedicine.edu",
+        "Renee|Renee.Cattell@stonybrookmedicine.edu",
+        "Andrew|Yizhou.Zhao@stonybrookmedicine.edu"
+    ],
+    "webservice_url": "http://roweb3.uhmc.sbuh.stonybrook.edu:4000/api",
+    "temp_folder": "c:\\temp",
+    "output_folder": "u:\\temp\\image_qa"
+}
